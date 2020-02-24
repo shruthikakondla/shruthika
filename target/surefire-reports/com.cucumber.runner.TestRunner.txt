@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.cucumber.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 0.518 s <<< FAILURE! - in com.cucumber.runner.TestRunner
+Given Launch npower site(| shiva.siri@gmail.com | siri3043 |)  Time elapsed: 0.006 s  <<< ERROR!
+cucumber.runtime.CucumberException: 
+Arity mismatch: Step Definition 'com.cucumber.test.Step_Def_npowerlogin.launch_npower_site() in file:/C:/Users/shiva/eclipse-workspace/sampletwo/target/test-classes/' with pattern [^Launch npower site$] is declared with 0 parameters. However, the gherkin step has 1 arguments [Table:[[shiva.siri@gmail.com], [siri3043]]]. 
+Step: Given Launch npower site
+
+| shiva.siri@gmail.com | siri3043 |  Time elapsed: 0.007 s  <<< ERROR!
+cucumber.runtime.CucumberException: 
+Arity mismatch: Step Definition 'com.cucumber.test.Step_Def_npowerlogin.launch_npower_site() in file:/C:/Users/shiva/eclipse-workspace/sampletwo/target/test-classes/' with pattern [^Launch npower site$] is declared with 0 parameters. However, the gherkin step has 1 arguments [Table:[[shiva.siri@gmail.com], [siri3043]]]. 
+Step: Given Launch npower site
+
