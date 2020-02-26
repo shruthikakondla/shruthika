@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "DirectLine LoginPage",
+        "description": "",
+        "id": "directline-login-page;directline-loginpage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4632733301,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Launch DirectLine Site",
+            "match": {
+              "location": "Step_Def_DirectLineLogin.ILaunchDirectLineSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 388162400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Enter username and password",
+            "match": {
+              "location": "Step_Def_DirectLineLogin.IEnterUsernameandPassword(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "qa@greenflag.com"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "Password1"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77791300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Login",
+            "match": {
+              "location": "Step_Def_DirectLineLogin.i_click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651508200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify whether login is successful",
+            "match": {
+              "location": "Step_Def_DirectLineLogin.i_verify_whether_login_is_successful(DataTable)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Successfully logged in!"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168969600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "Step_Def_DirectLineLogin.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "DirectLine Login Page",
+    "description": "",
+    "id": "directline-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/DirectLineLogin.feature"
+  }
+]
